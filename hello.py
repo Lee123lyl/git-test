@@ -23,21 +23,22 @@ class ImageProcessor:
             print(f"错误: {e}")
             return None
     
-    def process_batch(self, image_paths):
-        """批量处理图像"""
-        results = []
-        for path in image_paths:
-            img = self.load_image(path)
-            if img is not None:
-                processed = preprocess_image(img)
-                results.append(processed)
-        return results
-    
+
     def run(self):
         """主运行函数"""
         print("开始处理图像...")
         # TODO: 实现主逻辑
         pass
+
+
+     """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数"""
+     """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数"""
+    """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数"""
+    """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数"""
+    """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数"""
+    """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数"""
+    """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数"""
+    """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数""" """主运行函数"""
 
 if __name__ == "__main__":
     processor = ImageProcessor()
